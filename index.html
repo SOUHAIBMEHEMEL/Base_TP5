@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>base page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Site navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark nav">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">Buy.com</a>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+        </ul>
+        <button id="connecterBtn" class="btn my-2 my-sm-0 navbtn" type="submit">Se connecter</button>
+    </div>
+</nav>
+
+<!-- Site content -->
+<h1>Nos Produits</h1>
+<div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+        <div class="col produitContainer">
+            <div>
+                <img src="img/gaming.jpg">
+                <button type="button" class="btn btn-info">Visualiser</button>
+            </div>
+        </div>
+        <div class="col produitContainer">
+            <div>
+                <img src="img/gaming.jpg">
+                <button type="button" class="btn btn-info">Visualiser</button>
+            </div>
+        </div>
+        <div class="col produitContainer">
+            <div>
+                <img src="img/gaming.jpg">
+                <button type="button" class="btn btn-info">Visualiser</button>
+            </div>
+        </div>
+        <div class="col produitContainer">
+            <div>
+                <img src="img/gaming.jpg">
+                <button type="button" class="btn btn-info">Visualiser</button>
+            </div>
+        </div>
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+        <div class="col produitContainer">
+            <div>
+                <img src="img/gaming.jpg">
+                <button type="button" class="btn btn-info">Visualiser</button>
+            </div>
+        </div>
+        <div class="col produitContainer">
+            <div>
+                <img src="img/gaming.jpg">
+                <button type="button" class="btn btn-info">Visualiser</button>
+            </div>
+        </div>
+        <div class="col produitContainer">
+            <div>
+                <img src="img/gaming.jpg">
+                <button type="button" class="btn btn-info">Visualiser</button>
+            </div>
+        </div>
+        <div class="col produitContainer">
+            <div>
+                <img src="img/gaming.jpg">
+                <button type="button" class="btn btn-info">Visualiser</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Sign in form -->
+<div id="SignInContainer">
+    <div id="SignInForm">
+        <div id="SignInCancelBtn" type="button" class="btn btn-light"><i class="fa fa-window-close" aria-hidden="true"></i></div>
+        <button type="button" class="btn btn-primary" onclick="location.href = './admin.html'">go to admin page</button>
+        <h3>you should put your form here , Mahi</h3>
+    </div>
+</div>
+
+
+<!-- Site footer -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <h6>About</h6>
+                <p class="text-justify">Buy <i>application web de vente </i> est une plateforme qui vous permet d'acheter des produits en ligne avec un simple clic. Gagnez du temps et de l'argent en utlisant notre app. Notre app sera prochainement disponible sur la plateforme mobile.</p>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+                <h6>Categories</h6>
+                <ul class="footer-links">
+                    <li><a href="#">Vetements</a></li>
+                    <li><a href="#">Electromenagers</a></li>
+                    <li><a href="#">Telephones</a></li>
+                    <li><a href="#">Automobiles</a></li>
+                    <li><a href="#">Vetements</a></li>
+                    <li><a href="#">Electromenagers</a></li>
+                </ul>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+                <h6>Quick Links</h6>
+                <ul class="footer-links">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contactez-nous</a></li>
+                    <li><a href="#">Contributions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Site</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <p class="copyright-text">Copyright &copy; 2020 Projet Django</p>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <ul class="social-icons">
+                    <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/manager.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
