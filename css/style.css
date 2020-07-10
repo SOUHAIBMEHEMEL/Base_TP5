@@ -228,17 +228,35 @@ h1{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #222222;
+    background-color: #74CFBF;
     z-index: 999;
+    border-right: 1px solid #ffffff;
 }
 #sidebar ul{
     position: absolute;
-    top: 50px;
-    left: 10px;
+    top: 100px;
+    left: 0;
     color: white;
+    width: 270px;
+    padding-left: 0;
 }
 #sidebar ul>li{
     cursor: pointer;
+    list-style-type: none;
+    width: 270px;
+    height: 45px;
+    margin-left: 0;
+    padding-left: 20px;
+    padding-top: 12px;
+    font-size: 15px;
+}
+
+.menuBtn:first-child{
+    border-left: 10px solid #ffffff;
+    background-color: rgba(250,250,250,.2);
+}
+.menuBtn{
+    border-left: 10px solid transparent;
 }
 
 #body{
@@ -248,4 +266,12 @@ h1{
 .element{
     background-color: white;
     display: none;
+}
+
+#logo{
+    position: fixed;
+    top: 10px;
+    left: 30px;
+    z-index: 9999;
+    color: white;
 }
